@@ -18,7 +18,7 @@ end
 namespace :phpfpm do
 	desc" Restarts PHP-FPM"
 	task :restart do
-		run "#{sudo} /etc/init.d/php-fpm restart"
+		run "#{sudo} /etc/init.d/php5-fpm restart"
 	end
 end
 
