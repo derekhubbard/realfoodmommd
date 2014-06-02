@@ -28,7 +28,7 @@ margin:0!important;
 }
 
 .heading-entrance {margin: 0px auto!important; }
-	
+
 .logo {
 width: 100%!important;
 margin: 45px auto!important;
@@ -64,11 +64,11 @@ padding: 10px 0px!important;
     padding: 0px 3px!important;
 	}
 }
- 
+
 @media (min-width: 481px) and (max-width: 767px) {
 
 .logo {
-   
+
 }
 .footer .twitter {
     padding-right: 20px!important;
@@ -106,7 +106,7 @@ padding: 10px 0px!important;
     height: auto!important;
 }
 }
- 
+
 .clearfix {
   *zoom: 1;
 }
@@ -555,7 +555,7 @@ position:relative!important;
 margin-top:0px!important;
 }
   .row {
- 
+
     *zoom: 1;
   }
   .row:before,
@@ -925,7 +925,7 @@ text-align: left!important;
 }
 
 .post_meta {
-text-align: left!important; 
+text-align: left!important;
 }
 .post_meta ul li {	display: block!important; }
 .post_meta { display: block!important; border-bottom:0px solid #eee!important; text-align: left!important; }
@@ -936,8 +936,8 @@ text-align: left!important;
 text-align:center!important;
 }
   body {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .social__row {
  text-align: center!important;
@@ -945,7 +945,7 @@ text-align:center!important;
 .textwidget {
 text-align: center!important;
 }
-  
+
   .twitter_li {
     margin: 0px 0px 15px;
     padding: 30px 0px 0px 0px!important;
@@ -953,7 +953,7 @@ text-align: center!important;
 	}
   .footer {text-align:center;}
   .nav__primary {
-  
+
   position:relative!important;
   right: 0px!important;
   }
@@ -1149,10 +1149,10 @@ text-align: center!important;
   }
     .nav-collapse .nav > li:first-child {
     border-top: 1px solid #eeeeee;
-    
+
   }
    .nav-collapse .nav > li:last-child {
-   
+
     border-bottom: 0px solid #eeeeee;
   }
   .nav-collapse .nav > li > a {
