@@ -4916,7 +4916,7 @@ display: block;
 .white-page,
 .span8 .type-page {background: #fff;
 padding: 20px;
-border: 1px solid #dedede;
+border: 0px solid #dedede;
 margin-bottom:20px;
 }
 .social__row a {color:#dddddd;}
