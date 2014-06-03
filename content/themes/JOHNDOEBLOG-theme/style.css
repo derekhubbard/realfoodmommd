@@ -787,7 +787,7 @@ padding-bottom:20px;
 }
 
 article{
-padding:20px; border:1px solid #dedede;
+padding:20px; border:0px solid #dedede;
 }
 
 .post-header-article {padding:18px; background:#00e7b4;}
@@ -2363,7 +2363,7 @@ padding: 25px 0px 0 0;
   margin-bottom: 30px;
   padding: 20px;
   background:#fff;
-  border:1px solid #dedede;
+  border:0px solid #dedede;
   position: relative;
   z-index:0;
 }
