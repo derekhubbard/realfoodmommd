@@ -905,7 +905,7 @@ Site Header
 
 .site-header .widget-area {
 	float: right;
-	text-align: right;
+	text-align: left;
 	width: 800px;
 }
 
