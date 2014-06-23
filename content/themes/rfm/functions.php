@@ -10,7 +10,8 @@ define( 'CHILD_THEME_VERSION', '2.0.1' );
 //* Enqueue Lato Google font
 add_action( 'wp_enqueue_scripts', 'genesis_sample_google_fonts' );
 function genesis_sample_google_fonts() {
-	wp_enqueue_style( 'google-font-lato', '//fonts.googleapis.com/css?family=Lato:300,700', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-font-oswald', '//fonts.googleapis.com/css?family=Oswald:300', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-font-oswald', '//fonts.googleapis.com/css?family=Lora', array(), CHILD_THEME_VERSION );
 }
 
 //* Add HTML5 markup structure
