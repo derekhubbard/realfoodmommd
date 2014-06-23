@@ -25,3 +25,13 @@ add_theme_support( 'custom-background' );
 
 //* Add support for 3-column footer widgets
 add_theme_support( 'genesis-footer-widgets', 3 );
+
+
+// Additional customizations
+
+add_filter( 'genesis_post_info', 'sp_post_info_filter' );
+function sp_post_info_filter($post_info) {
+if ( !is_page() ) {
+	$post_info = '[post_date]';
+	return $post_info;
+}}
