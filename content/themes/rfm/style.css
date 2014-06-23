@@ -463,7 +463,10 @@ Structure and Layout
 
 .sidebar-primary {
 	float: right;
-	width: 360px;
+	width: 380px;
+  background-color: rgb(247, 247, 247);
+  padding: 20px;
+  padding: 2.0rem;
 }
 
 .sidebar-content .sidebar-primary,
@@ -1323,8 +1326,8 @@ Sidebars
 	border-radius: 3px;
 	margin-bottom: 40px;
 	margin-bottom: 4rem;
-	padding: 40px;
-	padding: 4rem;
+	padding: 10px;
+	padding: 1rem;
 }
 
 .sidebar .enews-widget {
