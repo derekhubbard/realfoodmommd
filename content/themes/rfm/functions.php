@@ -29,9 +29,15 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 
 // Additional customizations
 
-add_filter( 'genesis_post_info', 'sp_post_info_filter' );
-function sp_post_info_filter($post_info) {
+add_filter( 'genesis_post_info', 'rfm_post_info_filter' );
+function rfm_post_info_filter($post_info) {
 if ( !is_page() ) {
 	$post_info = '[post_date]';
 	return $post_info;
 }}
+
+add_filter( 'genesis_post_meta', 'rfm_post_meta_filter' );
+function rfm_post_meta_filter($post_meta) {
+	$post_meta = '[post_categories] [post_comments]';
+	return $post_meta;
+}

@@ -1152,14 +1152,18 @@ Content Area
 }
 
 .entry-comments-link::before {
-	content: "\2014";
 	margin: 0 6px 0 2px;
 	margin: 0 0.6rem 0 0.2rem;
+}
+
+.entry-comments-link {
+  float: right;
 }
 
 .entry-categories,
 .entry-tags {
 	display: block;
+  float: left;
 }
 
 /* Pagination
