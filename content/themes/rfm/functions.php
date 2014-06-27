@@ -26,9 +26,7 @@ add_theme_support( 'custom-background' );
 //* Add support for 3-column footer widgets
 add_theme_support( 'genesis-footer-widgets', 3 );
 
-
-// Additional customizations
-
+// Post info filtering
 add_filter( 'genesis_post_info', 'rfm_post_info_filter' );
 function rfm_post_info_filter($post_info) {
 if ( !is_page() ) {
@@ -36,8 +34,13 @@ if ( !is_page() ) {
 	return $post_info;
 }}
 
+// Post meta filtering
 add_filter( 'genesis_post_meta', 'rfm_post_meta_filter' );
 function rfm_post_meta_filter($post_meta) {
 	$post_meta = '[post_categories] [post_comments]';
 	return $post_meta;
 }
+
+//* Add new image sizes
+add_image_size('grid-thumbnail', 100, 100, TRUE);
+// add_image_size( 'home-top', 400, 200, TRUE );
