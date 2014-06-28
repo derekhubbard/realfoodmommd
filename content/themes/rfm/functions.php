@@ -13,6 +13,7 @@ function genesis_sample_google_fonts() {
 	wp_enqueue_style( 'google-font-oswald', '//fonts.googleapis.com/css?family=Oswald:300', array(), CHILD_THEME_VERSION );
 	wp_enqueue_style( 'google-font-lora', '//fonts.googleapis.com/css?family=Lora', array(), CHILD_THEME_VERSION );
 	wp_enqueue_style( 'google-font-lato', '//fonts.googleapis.com/css?family=Lato:300,400', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-font-open-sans-condensed', '//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400,', array(), CHILD_THEME_VERSION );
 }
 
 //* Add HTML5 markup structure
@@ -42,6 +43,15 @@ function rfm_post_meta_filter($post_meta) {
 	return $post_meta;
 }
 
+add_action('pre_get_posts', 'rfm_pre_get_posts');
+function rfm_pre_get_posts($query) {
+	if ($query->is_main_query() && $query->is_category('recipes')) {
+		$query->set('posts_per_page', -1);
+	}
+}
+
 //* Add new image sizes
-add_image_size('grid-thumbnail', 100, 100, TRUE);
-// add_image_size( 'home-top', 400, 200, TRUE );
+add_image_size('thumbnail-100', 100, 100, TRUE);
+add_image_size('thumbnail-150', 150, 150, TRUE);
+add_image_size('thumbnail-175', 175, 175, TRUE);
+add_image_size('thumbnail-200', 200, 200, TRUE);
