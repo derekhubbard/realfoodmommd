@@ -308,6 +308,8 @@ textarea {
 	padding: 8px;
 	padding: 0.8rem;
 	width: 100%;
+  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
 }
 
 input:focus,
@@ -1349,8 +1351,8 @@ Sidebars
 .sidebar .widget {
 	background-color: #fff;
 	border-radius: 3px;
-	margin-bottom: 40px;
-	margin-bottom: 4rem;
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
 	padding: 10px;
 	padding: 1rem;
 }
