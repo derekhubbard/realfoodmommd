@@ -1365,8 +1365,8 @@ Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-	background-color: #333;
-	color: #999;
+	background-color: rgb(247, 247, 247);
+	color: #333;
 	clear: both;
 	padding: 40px 0 16px;
 	padding: 4rem 0 1.6rem;
@@ -1410,7 +1410,7 @@ Footer Widgets
 }
 
 .footer-widgets .widget-title {
-	color: #fff;
+	color: #333;
 }
 
 .footer-widgets li {
