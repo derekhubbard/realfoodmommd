@@ -52,7 +52,16 @@ function rfm_pre_get_posts($query) {
 
 add_filter('genesis_search_text', 'rfm_search_text');
 function rfm_search_text() {
-	return esc_attr( 'Search Real Food Mom, MD' );
+	return esc_attr( 'Find something delicious...' );
+}
+
+remove_action('genesis_footer', 'genesis_do_footer');
+add_action('genesis_footer', 'rfm_footer');
+function rfm_footer() {
+	?>
+	<p>&copy; Copyright 2014 <a href="http://realfoodmommd.com/" title="Real Food Mom, MD">Real Food Mom, MD</a>&nbsp;&nbsp;|&nbsp;&nbsp;All Rights Reserved</p>
+	<p>Powered by <a href="http://wordpress.org/">WordPress</a> and the wonderfully awesome <a href="http://www.studiopress.com/themes/genesis" title="Genesis Framework">Genesis Framework.</a></p>
+	<?php
 }
 
 //* Add new image sizes
