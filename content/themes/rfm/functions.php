@@ -50,6 +50,11 @@ function rfm_pre_get_posts($query) {
 	}
 }
 
+add_filter('genesis_search_text', 'rfm_search_text');
+function rfm_search_text() {
+	return esc_attr( 'Search Real Food Mom, MD' );
+}
+
 //* Add new image sizes
 add_image_size('thumbnail-100', 100, 100, TRUE);
 add_image_size('thumbnail-150', 150, 150, TRUE);
