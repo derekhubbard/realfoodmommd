@@ -411,7 +411,7 @@ Structure and Layout
 .site-inner,
 .wrap {
 	margin: 0 auto;
-	max-width: 1140px;
+	max-width: 1000px;
 }
 
 .site-inner {
@@ -428,7 +428,8 @@ Structure and Layout
 .content-sidebar-sidebar .content-sidebar-wrap,
 .sidebar-content-sidebar .content-sidebar-wrap,
 .sidebar-sidebar-content .content-sidebar-wrap {
-	width: 920px;
+	/* width: 920px; */
+  width: 100%;
 }
 
 .content-sidebar-sidebar .content-sidebar-wrap {
@@ -444,7 +445,8 @@ Structure and Layout
 
 .content {
 	float: right;
-	width: 740px;
+	/* width: 740px; */
+  width: 600px;
 }
 
 .content-sidebar .content,
@@ -914,7 +916,7 @@ Site Header
 .site-header .widget-area {
 	float: right;
 	text-align: left;
-	width: 800px;
+	width: 600px;
 }
 
 .header-image .site-header .widget-area {
@@ -1181,8 +1183,8 @@ Content Area
   float: left;
   padding: 0px;
   padding 0rem;
-  margin: 0px 30px;
-  margin: 0rem 3.0rem;
+  margin: 0px 12px;
+  margin: 0rem 1.2rem;
   max-width: 175px;
   max-width: 17.5rem;
 }
@@ -1501,7 +1503,7 @@ Media Queries
 
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 920px) {
 
 	body {
 		background-color: #fff;
@@ -1581,6 +1583,10 @@ Media Queries
 	.genesis-nav-menu li.right {
 		display: none;
 	}
+
+  .entry-title, .entry-meta {
+    text-align: center;
+  }
 
 	.entry-footer .entry-meta {
 		margin: 0;
