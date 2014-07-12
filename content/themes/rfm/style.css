@@ -1178,21 +1178,26 @@ Content Area
 }
 
 .entry-tile {
-  display: block;
-  height: 240px;
   float: left;
   padding: 0px;
   padding 0rem;
-  margin: 0px 12px;
-  margin: 0rem 1.2rem;
-  max-width: 175px;
-  max-width: 17.5rem;
+  margin: 0px;
+  margin: 0rem;;
+  height: 250px;
+  height: 25rem;
+}
+
+.entry-tile header {
+  text-align: center;
 }
 
 .entry-tile h2 {
   text-align: center;
   font-size: 17px;
   font-size: 1.7rem;
+}
+
+.entry-tile img {
 }
 
 .entry-tile time {

@@ -3,6 +3,7 @@
 add_filter('post_class', 'rfm_category_post_class');
 function rfm_category_post_class($classes) {
   $classes[] = 'entry-tile';
+  $classes[] = 'one-third';
   return $classes;
 }
 
