@@ -43,6 +43,7 @@ function rfm_post_meta_filter($post_meta) {
 	return $post_meta;
 }
 
+// Retrieve all posts on recipes category page
 add_action('pre_get_posts', 'rfm_pre_get_posts');
 function rfm_pre_get_posts($query) {
 	if ($query->is_main_query() && $query->is_category('recipes')) {
@@ -50,11 +51,20 @@ function rfm_pre_get_posts($query) {
 	}
 }
 
+// Modify html for all thumbnail images to be links to post permalink
+add_filter( 'post_thumbnail_html', 'rfm_post_thumbnail_html', 10, 3 );
+function rfm_post_thumbnail_html( $html, $post_id, $post_image_id ) {
+  $html = '<a href="' . get_permalink( $post_id ) . '" title="' . esc_attr( get_the_title( $post_id ) ) . '">' . $html . '</a>';
+  return $html;
+}
+
+// Modify search text mask
 add_filter('genesis_search_text', 'rfm_search_text');
 function rfm_search_text() {
 	return esc_attr( 'Find something delicious...' );
 }
 
+// Modify footer text
 remove_action('genesis_footer', 'genesis_do_footer');
 add_action('genesis_footer', 'rfm_footer');
 function rfm_footer() {
