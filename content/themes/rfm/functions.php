@@ -56,6 +56,13 @@ function rfm_post_thumbnail_html( $html, $post_id, $post_image_id ) {
   return $html;
 }
 
+// Remove text after comments
+add_filter('comment_form_defaults', 'rfm_comment_form_defaults');
+function rfm_comment_form_defaults($arg) {
+    $arg['comment_notes_after'] = '';
+    return $arg;
+}
+
 // Modify search text mask
 add_filter('genesis_search_text', 'rfm_search_text');
 function rfm_search_text() {
