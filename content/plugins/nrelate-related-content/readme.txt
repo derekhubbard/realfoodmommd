@@ -3,7 +3,7 @@ Contributors: nrelate, slipfire, sbruner
 Tags: related posts, related content, related, feeds, feed, rss, page, pages, post, posts, thumbnails, nrelate
 Tested up to: 3.9
 Requires at least: 3.0
-Stable tag: 1.1.1
+Stable tag: 1.2.0
 
 The best way to display related content: Thumbnails or Text, on all your pages.
 
@@ -71,7 +71,6 @@ Shortcode Examples:<br>
 [nrelate-related float='right']<br>
 [nrelate-related width='50%']<br>
 [nrelate-related float='right' width='50%']<br>
-
 
 == Frequently Asked Questions ==
 
@@ -147,6 +146,11 @@ As of May 10, 2013, nRelate is working with <a href="http://www.comscore.com">co
 10. Hovering on an advertisement
 
 == Changelog ==
+
+= 1.2.0 =
+* Optimized nRelate loader.
+* Updated nRelate api request.
+* Removed style previews.
 
 = 1.1.1 = 
 * Added support for older versions of PHP.
