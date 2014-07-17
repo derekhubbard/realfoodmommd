@@ -1475,7 +1475,8 @@ Media Queries
 
 .ERSName,
 .ERSHeading,
-.ERSNotesHeader {
+.ERSNotesHeader,
+.ERSNutritionHeader {
 	font-family: 'Open Sans Condensed', Arial, serif !important;
 	font-weight: 300 !important;
 	letter-spacing: 1px;
