@@ -1471,8 +1471,8 @@ Media Queries
   font-family: 'Lora', Georgia, serif !important;
   font-size: 13px !important;
   font-size 1.3rem !important;
-  line-height: 1.8px;
-  line-height: .18rem;
+  line-height: 1.8px !important;
+  line-height: .18rem !important;
 }
 
 .ERSName,
