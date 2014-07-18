@@ -1486,7 +1486,7 @@ Media Queries
   font-size: 2.2rem !important;
 }
 
-.ERSIngredients ul {
+.ERSIngredients li {
   list-style-type: none !important;
 }
 
