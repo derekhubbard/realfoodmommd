@@ -1486,6 +1486,11 @@ Media Queries
   font-size: 2.2rem !important;
 }
 
+.ERSTimeItem {
+  font-size: 12px !important;
+  font-size: 1.2rem !important;
+}
+
 .ERSIngredients li {
   list-style-type: none !important;
 }
