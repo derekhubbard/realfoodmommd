@@ -1714,7 +1714,7 @@ Media Queries
 	}
 
   .entry-title, .entry-meta {
-    text-align: center;
+    text-align: left;
   }
 
 	.entry-footer .entry-meta {
@@ -1758,6 +1758,21 @@ Media Queries
 	.two-thirds {
 		margin: 0;
 		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+	.entry-title, .entry-meta {
+		text-align: center;
+	}
+
+	.genesis-grid img {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
 	}
 
 }
