@@ -683,6 +683,12 @@ img.alignright,
 	margin-right: 2.4rem;
 }
 
+.genesis-grid img {
+	margin: 0 24px 0 0;
+	margin: 0 2.4rem 0 0;
+	float: left;
+}
+
 /* Titles
 --------------------------------------------- */
 
@@ -691,6 +697,8 @@ img.alignright,
 	font-size: 2.4rem;
 	line-height: 1;
   text-transform: uppercase;
+	margin-bottom: 0px;
+	margin-bottom: 0rem;
 }
 
 .entry-title a,
@@ -1089,8 +1097,8 @@ Content Area
 .entry {
 	background-color: #fff;
 	border-radius: 3px;
-	margin-bottom: 70px;
-	margin-bottom: 7rem;
+	margin-bottom: 40px;
+	margin-bottom: 4rem;
 	padding: 0px 0px 24px;
 	padding: 0rem 0rem 2.4rem;
 }
@@ -1140,6 +1148,13 @@ Content Area
 	width: 50%;
 }
 
+.entry-content .more-link {
+	background-color: rgba(67, 158, 161, 0.14902);
+	padding: 10px;
+	padding 1.0rem;
+	color: rgb(51, 51, 51);
+}
+
 .entry-meta {
 	color: #999;
 	font-size: 14px;
@@ -1151,8 +1166,8 @@ Content Area
 }
 
 .entry-header .entry-meta {
-	margin-bottom: 24px;
-	margin-bottom: 2.4rem;
+	margin-bottom: 10px;
+	margin-bottom: 1.0rem;
 }
 
 .entry-footer .entry-meta {
