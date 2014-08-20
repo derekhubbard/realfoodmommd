@@ -90,8 +90,8 @@ function rfm_home_grid_loop( $args = array() ) {
 
 function rfm_home_do_post_image() {
   if (!in_array( 'genesis-feature', get_post_class() ) && has_post_thumbnail()) {
-    the_post_thumbnail('thumbnail-175');
-    // the_post_thumbnail('thumbnail-grid-post-image');
+    // the_post_thumbnail('thumbnail-175');
+    the_post_thumbnail('thumbnail-grid-post-image');
   }
 }
 
