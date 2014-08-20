@@ -1155,6 +1155,8 @@ Content Area
 	color: rgb(51, 51, 51);
 	font-family: 'Open Sans Condensed';
 	text-transform: uppercase;
+	font-size: 18px;
+	font-size: 1.8rem;
 }
 
 .entry-meta {
