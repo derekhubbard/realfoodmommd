@@ -1359,6 +1359,7 @@ Sidebars
 
 .sidebar {
 	color: #999;
+	line-height: 24px;
 }
 
 .sidebar a {
