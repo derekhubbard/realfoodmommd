@@ -340,8 +340,8 @@ input[type="submit"],
 	box-shadow: none;
 	color: #000000;
 	cursor: pointer;
-	padding: 16px 24px;
-	padding: 1.6rem 2.4rem;
+	padding: 10px 15px;
+	padding: 1.0rem 1.5rem;
 	text-transform: uppercase;
 	width: auto;
 	font-family: "Open Sans Condensed";
@@ -1153,8 +1153,8 @@ Content Area
 
 .entry-content .more-link {
 	background-color: rgba(67, 158, 161, 0.14902);
-	padding: 10px;
-	padding 1.0rem;
+	padding: 10px 15px;
+	padding 1.0rem 1.5rem;
 	color: rgb(51, 51, 51);
 	font-family: 'Open Sans Condensed';
 	text-transform: uppercase;
@@ -1358,7 +1358,8 @@ Sidebars
 ---------------------------------------------------------------------------------------------------- */
 
 .sidebar {
-	color: #999;
+	/* color: #999; */
+	color: #444;
 	line-height: 24px;
 }
 
@@ -1392,6 +1393,11 @@ Sidebars
 
 .sidebar .enews-widget {
 	background-color: #333;
+}
+
+.sidebar p {
+	font-size: 13px;
+	font-size: 1.3rem;
 }
 
 
