@@ -1,11 +1,11 @@
 <?php
 
-add_filter('post_class', 'rfm_category_post_class');
 function rfm_category_post_class($classes) {
   $classes[] = 'entry-tile';
   $classes[] = 'one-third';
   return $classes;
 }
+add_filter('post_class', 'rfm_category_post_class');
 
 remove_action('genesis_entry_content', 'genesis_do_post_image');
 add_action('genesis_entry_header', 'rfm_category_do_post_image', 8);

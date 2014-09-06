@@ -83,4 +83,5 @@ add_image_size('thumbnail-100', 100, 100, TRUE);
 add_image_size('thumbnail-150', 150, 150, TRUE);
 add_image_size('thumbnail-175', 175, 175, TRUE);
 add_image_size('thumbnail-200', 200, 200, TRUE);
+add_image_size('thumbnail-meal-plan-image', 300, 300, TRUE);
 add_image_size('thumbnail-grid-post-image', 185, 250, TRUE);
