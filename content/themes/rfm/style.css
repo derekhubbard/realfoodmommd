@@ -692,6 +692,18 @@ img.alignright,
 	float: left;
 }
 
+.genesis-grid .entry-content ul {
+	margin: 0px 0px 30px;
+	margin: 0rem 0rem 3.0rem;
+	line-height: 18px;
+}
+
+.genesis-grid .entry-content li {
+	margin: 10px;
+	margin: 1.0rem;
+	list-style: none;
+}
+
 /* Titles
 --------------------------------------------- */
 
@@ -1817,6 +1829,17 @@ Media Queries
 		width: 100%;
 	}
 
+	.genesis-grid img {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.genesis-grid .entry-content ul {
+		text-align: center;
+	}
+
 	.meal-plan-tile header img {
 		float: none;
 		margin-left: auto;
@@ -1846,12 +1869,4 @@ Media Queries
 	.entry-title, .entry-meta {
 		text-align: center;
 	}
-
-	.genesis-grid img {
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-		display: block;
-	}
-
 }
