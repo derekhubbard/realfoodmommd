@@ -1454,6 +1454,17 @@ Sidebars
 	font-size: 1.3rem;
 }
 
+.sidebar .about {
+	overflow: auto;
+	width: 100%;
+}
+
+.sidebar .about img {
+	float: left;
+	margin-right: 10px;
+	margin-right: 1.0rem;
+}
+
 .sidebar .esignup {
 	text-align: center;
 	border: solid 10px;
