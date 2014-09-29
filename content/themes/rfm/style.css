@@ -958,8 +958,8 @@ Site Navigation
 	clear: both;
 	color: #999;
 	font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-size: 22px;
+  font-size: 2.2rem;
 	line-height: 1.5;
 	width: 100%;
 }
@@ -973,8 +973,8 @@ Site Navigation
 	border: none;
 	color: #999;
 	display: block;
-	padding: 28px 14px 10px 14px;
-	padding: 2.8rem 1.4rem 1.0rem 1.4rem;
+	padding: 28px 12px 10px 12px;
+	padding: 2.8rem 1.2rem 1.0rem 1.2rem;
 	position: relative;
 }
 
