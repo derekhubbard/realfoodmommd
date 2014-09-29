@@ -473,10 +473,7 @@ Structure and Layout
 
 .sidebar-primary {
 	float: right;
-	width: 380px;
-  background-color: rgba(67, 158, 161, 0.15);
-  padding: 20px;
-  padding: 2.0rem;
+	width: 322px;
 }
 
 .sidebar-content .sidebar-primary,
@@ -1444,8 +1441,6 @@ Sidebars
 .sidebar .widget {
 	background-color: #fff;
 	border-radius: 3px;
-	margin-bottom: 20px;
-	margin-bottom: 2rem;
 	padding: 10px;
 	padding: 1rem;
 }
@@ -1457,6 +1452,19 @@ Sidebars
 .sidebar p {
 	font-size: 13px;
 	font-size: 1.3rem;
+}
+
+.sidebar .esignup {
+	text-align: center;
+	border: solid 10px;
+	border-color: rgba(67, 158, 161, 0.15);
+	padding: 14px;
+	padding: 1.4rem;
+}
+
+.sidebar .esignup p {
+	font-size: 15px;
+	font-size: 1.5rem;
 }
 
 
@@ -1696,12 +1704,14 @@ Media Queries
 	.footer-widgets-3,
 	.sidebar-primary,
 	.title-area {
-		width: 300px;
+		width: 322px;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 942px) {
 
 	body {
 		background-color: #fff;
