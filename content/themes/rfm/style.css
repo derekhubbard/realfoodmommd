@@ -753,6 +753,7 @@ Widgets
 	margin-bottom: 2rem;
 	padding: 0 0 24px;
 	padding: 0 0 2.4rem;
+	text-align: center;
 }
 
 .featured-content .entry-title {
@@ -760,6 +761,7 @@ Widgets
 	font-size: 24px;
 	font-size: 2.4rem;
 	line-height: 1.2;
+	text-align: left;
 }
 
 .featured-content .entry-title a {
@@ -1821,6 +1823,10 @@ Media Queries
 	.site-footer {
 		padding: 24px 0;
 		padding: 2.4rem 0;
+	}
+
+	.featured-content .entry-title {
+		text-align: center;
 	}
 
 	.footer-widgets {
