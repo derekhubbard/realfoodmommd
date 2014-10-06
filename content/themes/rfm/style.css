@@ -301,9 +301,9 @@ input,
 select,
 textarea {
 	background-color: #fff;
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	box-shadow: 1px 1px 3px #eee inset;
+	/* border: 1px solid #ddd; */
+	/* border-radius: 3px; */
+	/* box-shadow: 1px 1px 3px #eee inset; */
 	color: #999;
 	font-size: 14px;
 	font-size: 1.4rem;
@@ -1117,7 +1117,7 @@ Content Area
 }
 
 .entry-content a {
-	border-bottom: 1px solid #ddd;
+	/* border-bottom: 1px solid #ddd; */
 	color: #f15123;
 }
 
@@ -1422,7 +1422,7 @@ Sidebars
 }
 
 .sidebar a {
-	border-bottom: 1px solid #ddd;
+	/* border-bottom: 1px solid #ddd; */
 }
 
 .sidebar p:last-child {
