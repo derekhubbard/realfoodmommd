@@ -1456,15 +1456,15 @@ Sidebars
 	font-size: 1.3rem;
 }
 
-.sidebar .about {
-	overflow: auto;
-	width: 100%;
+.sidebar p .special {
+	font-family: 'Oranienbaum', serif;
+	font-weight: bold;
 }
 
-.sidebar .about img {
-	float: left;
-	margin-right: 10px;
-	margin-right: 1.0rem;
+.sidebar .about p {
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-family: 'Open Sans Condensed', serif;
 }
 
 .sidebar .esignup {

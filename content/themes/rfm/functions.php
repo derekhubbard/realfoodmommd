@@ -12,6 +12,7 @@ add_action( 'wp_enqueue_scripts', 'genesis_sample_google_fonts' );
 function genesis_sample_google_fonts() {
 	wp_enqueue_style( 'google-font-lora', '//fonts.googleapis.com/css?family=Lora', array(), CHILD_THEME_VERSION );
 	wp_enqueue_style( 'google-font-open-sans-condensed', '//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400,', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-font-oranienbaum', '//fonts.googleapis.com/css?family=Oranienbaum', array(), CHILD_THEME_VERSION );
 }
 
 //* Add HTML5 markup structure
