@@ -305,8 +305,8 @@ textarea {
 	/* border-radius: 3px; */
 	/* box-shadow: 1px 1px 3px #eee inset; */
 	color: #999;
-	font-size: 14px;
-	font-size: 1.4rem;
+	font-size: 16px;
+	font-size: 1.6rem;
 	padding: 16px;
 	padding: 1.6rem;
 	width: 100%;
@@ -420,8 +420,8 @@ Structure and Layout
 
 .site-inner {
 	clear: both;
-	padding-top: 40px;
-	padding-top: 4rem;
+	padding-top: 20px;
+	padding-top: 2rem;
 }
 
 /* Column Widths and Positions
@@ -855,6 +855,8 @@ Site Header
 
 .site-header {
 	background-color: #fff;
+	padding-top: 20px;
+	padding-top: 2.0rem;
 }
 
 .site-header .wrap {
@@ -1445,6 +1447,9 @@ Sidebars
 	border-radius: 3px;
 	padding: 10px;
 	padding: 1rem;
+	font-family: 'Oranienbaum', serif;
+	font-size: 16px;
+	font-size: 1.6rem;
 }
 
 .sidebar .enews-widget {
@@ -1469,15 +1474,23 @@ Sidebars
 
 .sidebar .esignup {
 	text-align: center;
-	border: solid 10px;
-	border-color: rgba(67, 158, 161, 0.15);
+	border: solid 8px;
+	border-color: rgb(67, 158, 161);
+	border-color: rgba(67, 158, 161, 0.5);
 	padding: 14px;
 	padding: 1.4rem;
 }
 
 .sidebar .esignup p {
-	font-size: 15px;
-	font-size: 1.5rem;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-family: 'Oranienbaum', serif;
+}
+
+.sidebar .esignup input[type='submit'] {
+	width: 100%;
+	background-color: #439ea1;
+	color: white;
 }
 
 
