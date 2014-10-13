@@ -169,7 +169,8 @@ textarea:focus,
 }
 
 a {
-	color: #666;
+	/* color: #666; */
+	color: rgb(67, 158, 161);
 	text-decoration: none;
 }
 
@@ -719,7 +720,7 @@ img.alignright,
 }
 
 .entry-title a:hover {
-	color: #666;
+	color: #439ea1;
 }
 
 .widget-title {
@@ -1119,7 +1120,8 @@ Content Area
 
 .entry-content a {
 	/* border-bottom: 1px solid #ddd; */
-	color: #f15123;
+	/* color: #f15123; */
+	color: #439ea1;
 }
 
 .entry-content a:hover {
@@ -1163,14 +1165,15 @@ Content Area
 }
 
 .entry-content .more-link {
-	background-color: rgba(67, 158, 161, 0.14902);
-	padding: 10px 15px;
+	/* background-color: rgba(67, 158, 161, 0.14902); */
+	padding: 10px 0px;
 	padding 1.0rem 1.5rem;
 	color: rgb(51, 51, 51);
+	color: #439ea1;
 	font-family: 'Open Sans Condensed';
 	text-transform: uppercase;
-	font-size: 18px;
-	font-size: 1.8rem;
+	font-size: 23px;
+	font-size: 2.3rem;
 }
 
 .entry-meta {
