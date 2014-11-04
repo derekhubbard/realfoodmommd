@@ -1627,7 +1627,7 @@ Ads
 
 /* Hide Swoop ads on recipe category page */
 .category-recipes .spx_wrapper {
-	display: none;
+	display: none !important;
 }
 
 
