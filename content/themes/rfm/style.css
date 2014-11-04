@@ -1586,7 +1586,7 @@ Site Footer
 
 
 /*
-Media Queries
+Easy Recipe Plugin
 ---------------------------------------------------------------------------------------------------- */
 
 .easyrecipe {
@@ -1621,71 +1621,15 @@ Media Queries
   list-style-type: none !important;
 }
 
-/* a.butn-link,
-a.ERSSaveBtn {
-  background-image: url("images/save.png") !important;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  display: block;
-  font-size: 0px !important;
-  height: 22px !important;
-  margin: 0 0 5px 0 !important;
-  width: 120px !important;
+/*
+Ads
+---------------------------------------------------------------------------------------------------- */
+
+/* Hide Swoop ads on recipe category page */
+.category-recipes .spx_wrapper {
+	display: none;
 }
 
-a.butn-link:hover,
-a.ERSSaveBtn:hover {
-  background-image: url("images/savehover.png") !important;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  display: block;
-  height: 22px !important;
-  width: 120px !important;
-}
-
-.ERSPrintBtn p {
-  display: none;
-  visibility: hidden;
-}
-
-.easyrecipe .ERSHead {
-  color: #444 !important;
-  float: left;
-  font: 13px georgia, serif !important;
-  margin-right: 15px;
-  margin-top: 10px;
-}
-
-.ERSIngredients {
-  border-top: 3px solid #fff;
-  padding-top: 10px !important;
-}
-
-.easyrecipe .ERSIngredients .ingredients li {
-  list-style-type: none !important;
-}
-
-.ERSRatings {
-  clear: both !important;
-  display: block !important;
-  float: right !important;
-  margin: 0 0 0 10px;
-}
-
-div.easyrecipe div.ERSSavePrint .ERSSaveBtnSpan .ziplist-link.ERSSaveBtn,
-div.easyrecipe div.ERSSavePrint .ERSSaveBtnSpan .ziplist-button.ERSSaveBtn {
-  background-color: transparent !important;
-}
-
-.ERSSaveIcon,
-.ERSPrintIcon {
-  display: none;
-  visibility: hidden;
-}
-
-.ERSHead {
-  font-family: arial, sans-serif !important;
-} */
 
 /*
 Media Queries
