@@ -1638,8 +1638,12 @@ Easy Recipe Plugin
 Ads & Additional Content
 ---------------------------------------------------------------------------------------------------- */
 
-/* Hide Swoop ads on recipe category page */
+/* Hide Swoop ads on home and category pages */
 .category .spx_wrapper {
+	display: none !important;
+}
+
+.home .spx_wrapper {
 	display: none !important;
 }
 
