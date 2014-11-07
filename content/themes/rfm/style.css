@@ -1635,7 +1635,7 @@ Ads & Additional Content
 ---------------------------------------------------------------------------------------------------- */
 
 /* Hide Swoop ads on recipe category page */
-.category-3 .spx_wrapper {
+.category .spx_wrapper {
 	display: none !important;
 }
 
