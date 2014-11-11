@@ -79,6 +79,24 @@ function rfm_footer() {
 	<?php
 }
 
+// Register widget areas
+genesis_register_sidebar( array(
+	'id'				=> 'after-post-content-widget',
+	'name'			=> __( 'After Post', 'rfm' ),
+	'description'	=> __( 'This section is displayed after post content, before the comments of posts.', 'rfm' ),
+) );
+
+// Add after post content section
+// add_action( 'genesis_entry_footer', 'widget_after_post_ad', 9 );
+add_action( 'genesis_before_comments', 'widget_after_post_ad', 9 );
+function widget_after_post_ad() {
+    if ( is_single() && is_active_sidebar( 'after-post-content-widget' ) ) {
+    	echo '<div class="after-post">';
+		dynamic_sidebar( 'after-post-content-widget' );
+		echo '</div><!-- end .new-widget -->';
+	}
+}
+
 //* Add new image sizes
 add_image_size('thumbnail-100', 100, 100, TRUE);
 add_image_size('thumbnail-150', 150, 150, TRUE);

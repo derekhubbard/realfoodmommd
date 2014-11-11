@@ -1508,6 +1508,57 @@ Sidebars
 	color: white;
 }
 
+/*
+After Post Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.afterpost-content {
+	margin-top: 10px;
+	margin-top: 1.0rem;
+	margin-bottom: 10px;
+	margin-bottom: 1.0rem;
+}
+
+.afterpost-content .esignup {
+	text-align: center;
+	border: solid 8px;
+	border-color: rgb(67, 158, 161);
+	border-color: rgba(67, 158, 161, 0.5);
+	padding: 14px;
+	padding: 1.4rem;
+	width: 300px;
+	width: 30rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.afterpost-content .esignup p {
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-family: 'Oranienbaum', serif;
+	/* margin-bottom: 24px;
+	margin-bottom: 2.4rem; */
+}
+
+.afterpost-content .esignup input[type='email'] {
+	width: 100%;
+	font-family: 'Oranienbaum', serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	margin-bottom: 24px;
+	margin-bottom: 2.4rem;
+}
+
+.afterpost-content .esignup input[type='submit'] {
+	width: 100%;
+	background-color: #439ea1;
+	color: white;
+}
+
+.afterpost-content .esignup p:last-child {
+	margin-bottom: 0px;
+}
+
 
 /*
 Footer Widgets
@@ -1646,47 +1697,6 @@ Ads & Additional Content
 .home .spx_wrapper {
 	display: none !important;
 }
-
-.entry-content .esignup {
-	text-align: center;
-	border: solid 8px;
-	border-color: rgb(67, 158, 161);
-	border-color: rgba(67, 158, 161, 0.5);
-	padding: 14px;
-	padding: 1.4rem;
-	width: 300px;
-	width: 30rem;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.entry-content .esignup p {
-	font-size: 18px;
-	font-size: 1.8rem;
-	font-family: 'Oranienbaum', serif;
-	/* margin-bottom: 24px;
-	margin-bottom: 2.4rem; */
-}
-
-.entry-content .esignup input[type='email'] {
-	width: 100%;
-	font-family: 'Oranienbaum', serif;
-	font-size: 16px;
-	font-size: 1.6rem;
-	margin-bottom: 24px;
-	margin-bottom: 2.4rem;
-}
-
-.entry-content .esignup input[type='submit'] {
-	width: 100%;
-	background-color: #439ea1;
-	color: white;
-}
-
-.entry-content .esignup p:last-child {
-	margin-bottom: 0px;
-}
-
 
 /*
 Media Queries
