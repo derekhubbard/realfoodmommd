@@ -75,7 +75,7 @@ remove_action('genesis_footer', 'genesis_do_footer');
 add_action('genesis_footer', 'rfm_footer');
 function rfm_footer() {
 	?>
-	<p>&copy; Copyright 2014 <a href="http://realfoodmommd.com/" title="Real Food Mom, MD">Real Food Mom, MD</a>&nbsp;&nbsp;|&nbsp;&nbsp;Powered by <a href="http://wordpress.org/" title="WordPress" target="_blank">WordPress</a> and the wonderfully awesome <a href="http://www.studiopress.com/themes/genesis" title="Genesis Framework" target="_blank">Genesis Framework</a>.&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://realfoodmommd.com/legal-stuff" title="Legal Stuff">Legal Stuff</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://realfoodmommd.com/privacy-policy" title="Privacy Policy">Privacy Policy</a></p>
+	<p>&copy; Copyright 2014 <a href="http://realfoodandicecream.com/" title="Real Food & Ice Cream">Real Food & Ice Cream</a>&nbsp;&nbsp;|&nbsp;&nbsp;Powered by <a href="http://wordpress.org/" title="WordPress" target="_blank">WordPress</a> and the wonderfully awesome <a href="http://www.studiopress.com/themes/genesis" title="Genesis Framework" target="_blank">Genesis Framework</a>.&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://realfoodandicecream.com/legal-stuff" title="Legal Stuff">Legal Stuff</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://realfoodandicecream.com/privacy-policy" title="Privacy Policy">Privacy Policy</a></p>
 	<?php
 }
 
